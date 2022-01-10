@@ -1,0 +1,143 @@
+@media screen and (max-width: 576px) {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+    } 
+    body{
+        display: block;
+    }
+    header{
+        padding: 50px 0px;
+        text-align: center;
+    }
+    nav .menu{
+        display: block;
+        text-align: center;
+    }
+    .menu li{
+        padding: 5px 0px;
+    }
+   .main .box{
+       padding: 10px;
+       height: 100%;
+       width: 100%;
+       display: block;
+       margin:  0px;
+   }
+   .main .box .img1{
+       width: 100%;
+   }
+   .box button{
+       width: 100%;
+       font-size: 25px;
+   }
+   .center{
+       margin: 10px;
+   }
+  footer {
+     padding: 40px 0px;
+  }
+  input{
+      width: 200px;
+      padding: 5px;
+ }
+ .btn8{
+     margin-left:5px;
+     padding: 5px 2px;
+     font-size: 7px;
+ } 
+     
+ footer p{
+     text-align: center;
+     font-size: 10px;
+ }
+   }
+   @media (min-width:577px) and (max-width:992px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    header{
+        padding: 60px 0px;
+        text-align: center;
+    }
+    nav .menu{
+        display: block;
+        text-align: center;
+    }
+   li{
+       font-size: 25px;
+       padding: 10px 0px;
+   } 
+   .main{
+       margin-bottom: 30px;
+   }
+   .box button{
+       font-size: 20px;
+       margin: 5px 10px;
+   }
+   .box{
+       width: calc(100% / 2 - 20px);
+       float: left;
+       height: 360px;
+       margin:10px;
+   }
+   .box p{
+       font-size: 15px;
+   }
+   .center{
+       margin: 30px 0px;
+   }
+   footer{
+       padding: 70px;
+   }
+   input{
+       padding:  10px 5px;
+   }
+   .btn8{
+       padding: 14px 5px;
+       font-size: 8px;
+   }
+}
+@media (min-width:993px) and (max-width:1440px){
+ .container{
+     width: 100%;
+     margin: 0 auto;
+ }
+   p{
+       font-size: 20px;
+       letter-spacing: 1px;
+   } 
+   header p{
+       font-size: 30px;
+   }
+   li {
+       font-size: 20px;
+   }
+    .box{
+        padding: 5px;
+        height: 450px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    .box button{
+        width: 50%;
+        padding: 15px 10px;
+        font-size: 20px;
+    }
+    .btn7{
+        padding: 15px;
+        font-size: 25px;
+    }
+    .btn8{
+        font-size: 25px;
+    }
+    input{
+        padding: 15px 15px;
+        font-size: 25px;
+    }
+    footer p{
+        font-size: 30px;
+    }
+}
